@@ -38,6 +38,9 @@ func GetLangHelper(lang string) LangHelper {
 		return &JavaLangHelper{version: "1.8"}
 	case "java9":
 		return &JavaLangHelper{version: "9"}
+		return &JavaLangHelper{}
+	case "clojure":
+		return &ClojureLangHelper{}
 	}
 	return nil
 }

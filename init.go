@@ -43,6 +43,7 @@ var (
 		".cs":   "dotnet",
 		".fs":   "dotnet",
 		".java": "java",
+		".clj":  "clojure",
 	}
 
 	fnInitRuntimes []string
